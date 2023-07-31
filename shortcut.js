@@ -14,7 +14,7 @@ if (currentUrl.includes("leetcode.com/problems/")) {
 		// ctrl + ; to use example testcases
 		else if (e.ctrlKey && e.key === ';') {
 			document.querySelectorAll('.example-testcases__3q5c')[0].click()
-			document.querySelectorAll('[ data-cy="run-code-btn"]')[0].click()
+			document.querySelectorAll('[ data-e2e-locator="console-run-button"]')[0].click()
 		}
 		// ctrl + atl + m to retrieve the last submission
 		else if (e.ctrlKey && e.altKey && e.key === 'm') {
